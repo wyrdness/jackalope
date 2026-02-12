@@ -1,0 +1,291 @@
+{
+  "category": "CRYPTID",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/jackalope",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "jackalope",
+    "name": "Jackalope",
+    "aliases": [],
+    "category": "CRYPTID",
+    "subcategory": "American Hoax",
+    "tags": [
+      "hoax",
+      "taxidermy",
+      "american-west",
+      "wyoming",
+      "tall-tale",
+      "roadside-attraction",
+      "known-origin"
+    ],
+    "status": "known hoax",
+    "description": {
+      "summary": "Mythical jackrabbit with antelope horns, created as a taxidermy hoax by the Herrick brothers in 1930s Wyoming. Despite known origins, became iconic American folklore creature and cultural symbol.",
+      "full": "The Jackalope is a mythical creature consisting of a jackrabbit with antelope or deer antlers, created as a taxidermy hoax in Douglas, Wyoming in the 1930s by brothers Douglas and Ralph Herrick. After a hunting trip, the brothers mounted a jackrabbit head with deer antlers and sold it to a local hotel, launching a phenomenon that spread across America through postcards, souvenirs, and roadside attractions. The tongue-in-cheek legend attributes various abilities to the Jackalope including mimicking human voices and producing milk with medicinal properties, while claiming it's aggressive and dangerous. Despite being a known hoax, the Jackalope has become an iconic symbol of American West folklore and tall tale tradition. Douglas, Wyoming embraced the creature as the 'Jackalope Capital,' erecting statues and selling hunting licenses. Interestingly, the Shope papillomavirus does cause horn-like growths on rabbits, providing a medical basis for the legend. Related to the German Wolpertinger, the Jackalope represents American creativity, humor, and the appeal of the absurd."
+    },
+    "etymology": {
+      "origin": "Portmanteau of 'jackrabbit' and 'antelope'",
+      "meaning": "Jackrabbit with antelope horns",
+      "first_use": "1930s, Douglas, Wyoming"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "CRYPTID",
+      "type": "American Hoax",
+      "subtype": "Taxidermy creation",
+      "variant": "Western tall tale"
+    },
+    "related_phenomena": [
+      {
+        "id": "wolpertinger",
+        "name": "Wolpertinger",
+        "relationship": "similar",
+        "description": "German chimeric creature with similar taxidermy tradition"
+      },
+      {
+        "id": "hodag",
+        "name": "Hodag",
+        "relationship": "similar",
+        "description": "Wisconsin hoax creature that became folklore"
+      },
+      {
+        "id": "fearsome-critters",
+        "name": "Fearsome Critters",
+        "relationship": "related",
+        "description": "American tall tale creature tradition"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "features": [
+        {
+          "feature": "Body",
+          "description": "Jackrabbit body",
+          "frequency": "always"
+        },
+        {
+          "feature": "Antlers",
+          "description": "Antelope or deer antlers on head",
+          "frequency": "always"
+        },
+        {
+          "feature": "Size",
+          "description": "Standard jackrabbit size with antlers",
+          "frequency": "always"
+        }
+      ],
+      "morphology": "Jackrabbit with antelope or deer antlers mounted on head. Taxidermy creation combining two animals."
+    },
+    "abilities": [
+      {
+        "ability": "Voice mimicry",
+        "description": "Can mimic human voices (tongue-in-cheek claim)",
+        "frequency": "folkloric",
+        "evidence_level": "humorous fiction"
+      },
+      {
+        "ability": "Medicinal milk",
+        "description": "Milk has medicinal properties (satirical claim)",
+        "frequency": "folkloric",
+        "evidence_level": "humorous fiction"
+      },
+      {
+        "ability": "Aggression",
+        "description": "Dangerous and aggressive (satirical warning)",
+        "frequency": "folkloric",
+        "evidence_level": "humorous fiction"
+      }
+    ],
+    "behavior": {
+      "activity_period": "folkloric",
+      "disposition": "satirical (claimed aggressive)",
+      "habitat_preference": [
+        "American West",
+        "Wyoming",
+        "plains and mountains"
+      ],
+      "diet": "Herbivorous (like jackrabbits)",
+      "patterns": [
+        "All characteristics are humorous inventions",
+        "No actual behavioral patterns (hoax creature)"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Originated in Douglas, Wyoming; spread as cultural phenomenon across American West and beyond",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": [
+        "Wyoming (origin)",
+        "American West",
+        "Nationwide as cultural icon"
+      ]
+    },
+    "hotspots": [
+      {
+        "name": "Douglas, Wyoming",
+        "location": {
+          "description": "Douglas, Wyoming - Jackalope Capital",
+          "country": "United States",
+          "region": "Wyoming",
+          "coordinates": {
+            "latitude": 42.7597,
+            "longitude": -105.3822
+          }
+        },
+        "notes": "Origin point of hoax, self-proclaimed 'Jackalope Capital,' features statue and sells hunting licenses"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "1930s",
+        "circa": true,
+        "source": "Herrick brothers taxidermy creation in Douglas, Wyoming"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "1930s-1950s",
+          "description": "Initial spread through postcards and roadside attractions"
+        },
+        {
+          "period": "1960s-present",
+          "description": "Iconic American folklore status"
+        }
+      ]
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "American West tall tale tradition and roadside attraction culture. Created deliberately as hoax/novelty item that evolved into genuine folklore.",
+      "earliest_accounts": "1930s taxidermy creation by Douglas and Ralph Herrick",
+      "folklore_connections": "Related to American tall tale tradition, fearsome critters, and German Wolpertinger taxidermy tradition."
+    },
+    "timeline": [
+      {
+        "date": "1930s",
+        "event": "Herrick brothers create first Jackalope",
+        "significance": "Douglas and Ralph Herrick mount jackrabbit with deer antlers, sell to hotel in Douglas, Wyoming",
+        "source": "Historical records, family accounts"
+      },
+      {
+        "date": "1940s-1950s",
+        "event": "Spread via postcards and souvenirs",
+        "significance": "Jackalope becomes popular novelty item across American West",
+        "source": "Postcards, tourist memorabilia"
+      },
+      {
+        "date": "1965",
+        "event": "Douglas adopts as town symbol",
+        "significance": "Douglas, Wyoming embraces Jackalope as 'Jackalope Capital'",
+        "source": "Town records"
+      },
+      {
+        "date": "Modern era",
+        "event": "Iconic status achieved",
+        "significance": "Jackalope becomes recognized American folklore icon despite known hoax origins",
+        "source": "Popular culture"
+      }
+    ],
+    "modern_era": "The Jackalope is now an iconic American cryptid and folklore figure despite everyone knowing it originated as a hoax. Douglas, Wyoming continues to embrace it as a tourist attraction with statues, hunting licenses, and annual celebrations. The creature appears in popular culture, merchandise, and represents American humor and tall tale tradition."
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Jackalope hunting licenses sold in Douglas, Wyoming",
+        "Satirical 'facts' about behavior and abilities",
+        "Roadside attraction and tourist novelty",
+        "Postcards and souvenirs"
+      ],
+      "stories": [
+        "Creation story by Herrick brothers",
+        "Exaggerated hunting tales",
+        "Satirical natural history claims"
+      ],
+      "beliefs": "Universally recognized as hoax/tall tale; embraced as humorous folklore"
+    },
+    "popular_culture": {
+      "literature": [
+        "American folklore collections",
+        "Western Americana books",
+        "Cryptozoology references (as known hoax)"
+      ],
+      "other": [
+        "Douglas, Wyoming statue and tourism",
+        "Jackalope hunting licenses",
+        "Widespread merchandise and souvenirs",
+        "Bar and restaurant decor",
+        "American cultural icon",
+        "Video game appearances",
+        "Commercial product names"
+      ]
+    }
+  },
+
+  "scientific_basis": {
+    "shope_papillomavirus": {
+      "description": "The Shope papillomavirus causes horn-like growths (keratinous carcinomas) on rabbits, particularly on the head. This may have inspired earlier folk tales of horned rabbits.",
+      "significance": "Provides medical explanation for rare real-world 'horned rabbits' that may have contributed to folklore",
+      "discovery": "Identified by Dr. Richard Shope in 1933"
+    }
+  },
+
+  "theories": {
+    "origin": [
+      {
+        "name": "Taxidermy hoax",
+        "description": "Deliberately created by Herrick brothers as novelty item that became folklore",
+        "proponents": ["Historical consensus"],
+        "evidence_cited": ["Known creation date", "Herrick brothers' accounts", "Taxidermy origins"]
+      },
+      {
+        "name": "Papillomavirus inspiration",
+        "description": "Earlier folklore may have been inspired by rabbits with viral horn-like growths",
+        "proponents": ["Medical researchers"],
+        "evidence_cited": ["Shope papillomavirus effects", "Historical rabbit horn specimens"]
+      }
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "dorson-1973",
+      "type": "book",
+      "title": "America in Legend",
+      "authors": ["Richard M. Dorson"],
+      "publication": "Pantheon Books",
+      "date": "1973"
+    },
+    {
+      "id": "shope-1933",
+      "type": "academic",
+      "title": "Infectious Papillomatosis of Rabbits",
+      "authors": ["Richard E. Shope"],
+      "publication": "Journal of Experimental Medicine",
+      "date": "1933"
+    }
+  ]
+}
