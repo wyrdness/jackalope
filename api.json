@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/jackalope",
     "maintainers": [
       {
@@ -16,111 +16,271 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "jackalope",
     "name": "Jackalope",
-    "aliases": [],
-    "category": "CRYPTID",
-    "subcategory": "Taxidermy creation",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Antelabbit", "region": "American West" },
+      { "name": "Aunt Benny", "region": "American West" },
+      { "name": "Lepus cornutus", "language": "Latin (pseudoscientific)", "meaning": "Horned hare; pre-modern European cryptozoological label for horned rabbits" },
+      { "name": "Wolpertinger", "language": "German", "region": "Bavaria, Germany", "meaning": "Bavarian taxidermy chimera analogous to the jackalope" },
+      { "name": "Al-mi'raj", "language": "Arabic", "region": "Persian / Arabic mythology", "meaning": "Single-horned hare from medieval Islamic bestiaries" }
     ],
-    "status": "documented",
+    "category": "CRYPTID",
+    "subcategory": "Hoax / taxidermy chimera",
+    "tags": [
+      "lagomorph",
+      "horned-rabbit",
+      "taxidermy",
+      "tall-tale",
+      "wyoming",
+      "american-west",
+      "hoax",
+      "folklore"
+    ],
+    "status": "debunked",
     "description": {
-      "summary": "The Jackalope is a mythical creature consisting of a jackrabbit with antelope or deer antlers, created as a taxidermy hoax in Douglas, Wyoming in the 1930s by brothers Douglas and Ralph Herrick.",
-      "full": "The Jackalope is a mythical creature consisting of a jackrabbit with antelope or deer antlers, created as a taxidermy hoax in Douglas, Wyoming in the 1930s by brothers Douglas and Ralph Herrick. After a hunting trip, the brothers mounted a jackrabbit head with deer antlers and sold it to a local hotel, launching a phenomenon that spread across America through postcards, souvenirs, and roadside attractions. The tongue-in-cheek legend attributes various abilities to the Jackalope including mimicking human voices and producing milk with medicinal properties, while claiming it's aggressive and dangerous. Despite being a known hoax, the Jackalope has become an iconic symbol of American West folklore and tall tale tradition. Douglas, Wyoming embraced the creature as the \\\"Jackalope Capital,\\\" erecting statues and selling hunting licenses. Interestingly, the Shope papillomavirus does cause horn-like growths on rabbits, providing a medical basis for the legend."
+      "summary": "The jackalope is a mythical North American hare with antelope or deer antlers, originating as a 1930s taxidermy creation by the Herrick brothers in Douglas, Wyoming. It is the most famous American example of an old global folkloric tradition of horned hares.",
+      "full": "The jackalope is a mythical creature of American folklore, depicted as a jackrabbit with the antlers of a pronghorn antelope or deer. The modern phenomenon traces to Douglas, Wyoming in the early 1930s, where brothers Douglas Herrick (1920–2003) and Ralph Herrick are credited with mounting a jackrabbit head to a set of deer antlers and selling the first specimen to Roy Ball of the La Bonte Hotel for ten dollars in 1932. The fabrication tapped a much older tradition: medieval and early-modern European naturalists illustrated the 'lepus cornutus' or horned hare in bestiaries and natural-history compendia, the Bavarian wolpertinger remains a related taxidermy tradition, and the Persian / Arabic al-mi'raj is a horned hare of medieval Islamic mythography. The Wyoming variant rapidly became roadside-attraction kitsch and a regional tall-tale staple, complete with claims of human-voice mimicry, lightning-fast running, attack behavior, and 'jackalope milk' with medicinal properties. A widely-cited biological cause for at least some original sightings is infection by the Shope papillomavirus (named for Richard E. Shope), which causes large keratinous, horn-shaped tumors to grow on the heads of cottontails and jackrabbits. Douglas, Wyoming has self-styled the 'Jackalope Capital of the World' since 1965, with a city statue, a 'jackalope hunting license' sold by the chamber of commerce, and repeated state-legislature attempts (2005, 2013, 2015) to designate the jackalope Wyoming's official mythological creature."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Portmanteau of 'jackrabbit' and 'antelope'; coined in the United States, popularized by the Herrick brothers' Douglas, Wyoming taxidermy work in the 1930s",
+      "meaning": "Jackrabbit + (pronghorn) antelope",
+      "first_use": "1930s (Douglas, Wyoming, USA)"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Taxidermy creation",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Hybrid lagomorph",
+      "subtype": "Horned hare",
+      "variant": "North American (Wyoming) taxidermy creation"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "wolpertinger", "name": "Wolpertinger", "relationship": "counterpart", "description": "Bavarian chimeric taxidermy creature with hare body, antlers, fangs, and wings" },
+      { "id": "al-miraj", "name": "Al-mi'raj", "relationship": "similar", "description": "Single-horned hare from medieval Arabic / Persian mythography" },
+      { "id": "lepus-cornutus", "name": "Lepus cornutus", "relationship": "related", "description": "Pre-modern European 'horned hare' described in early natural-history texts" },
+      { "id": "skvader", "name": "Skvader", "relationship": "similar", "description": "Swedish taxidermy chimera (hare with grouse wings) created 1918" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 0.3, "max": 0.6, "unit": "meters", "confidence": "low" },
+      "weight": { "min": 1.5, "max": 4.5, "unit": "kilograms", "confidence": "low" },
+      "coloration": ["brown", "tan", "grey-brown (jackrabbit pelage)"],
+      "features": [
+        { "feature": "Antlers", "description": "Pronghorn-antelope or deer-style antlers grafted onto the head; in the Herrick original, deer antlers", "frequency": "always" },
+        { "feature": "Jackrabbit body", "description": "Body and head of a black-tailed jackrabbit (Lepus californicus) or related hare", "frequency": "always" },
+        { "feature": "Sharp incisors", "description": "Standard lagomorph dentition; in tall-tale lore exaggerated as 'fangs'", "frequency": "common" }
+      ],
+      "morphology": "Standard lagomorph (hare) morphology with antlers added by taxidermy. There is no biological basis for antler growth on a leporid; the closest natural analogue is keratinous papillomas caused by Shope papillomavirus, which are horn-like but not true antlers."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Voice mimicry", "description": "In tall tales, jackalopes are said to mimic human voices, often singing along with cowboy campfire songs", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Aggression toward humans", "description": "Tall tales describe the jackalope as the 'most aggressive of all rabbit species', willing to attack humans with its antlers", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Medicinal milk", "description": "Folk claim that female jackalope milk has medicinal value; central to the Douglas, Wyoming tourist mythos", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "crepuscular",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["sagebrush steppe", "high plains", "shortgrass prairie", "American West deserts"],
+      "diet": "Tall tales describe a diet including whiskey; in the underlying lagomorph, grasses and forbs",
+      "patterns": [
+        "Most often 'sighted' on roadside curio-shop walls",
+        "Tall-tale stories cluster around cowboy campfires",
+        "Modern reports concentrated around Douglas, Wyoming tourism"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Folklore range covers the American West, especially Wyoming, with secondary tall-tale presence across Nebraska, South Dakota, Montana, and Colorado. The wider 'horned hare' tradition is global, with European (wolpertinger, lepus cornutus) and Middle Eastern (al-mi'raj) analogues.",
+      "continents": ["North America", "Europe", "Asia"],
+      "countries": ["United States", "Germany", "Sweden"],
+      "regions": ["American West", "Wyoming", "Great Plains", "Bavaria"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Douglas, Wyoming",
+        "location": {
+          "description": "Self-declared 'Jackalope Capital of the World'",
+          "country": "United States",
+          "region": "Wyoming",
+          "coordinates": { "latitude": 42.7595, "longitude": -105.3828 }
+        },
+        "peak_period": "1932–present",
+        "notes": "Site of the Herrick brothers' original taxidermy and the first jackalope sale to the La Bonte Hotel"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1932",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Herrick family oral history; Wyoming state recognition narratives"
+      },
+      "peak_activity_periods": [
+        { "period": "1930s–1960s", "description": "Roadside-attraction era; postcards, taxidermy mounts, and tall tales spread nationally" },
+        { "period": "2005–present", "description": "Repeated Wyoming legislative attempts to declare the jackalope the state's official mythological creature" }
+      ],
+      "seasonal_patterns": "No biological pattern; tourist-driven seasonality peaks in summer in Douglas, Wyoming"
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Tall-tale tradition of the American West, fused with a much older transatlantic tradition of horned hares (lepus cornutus) in European natural history and the al-mi'raj of Persian / Arabic mythography.",
+      "earliest_accounts": "The modern jackalope was created in Douglas, Wyoming by Douglas and Ralph Herrick in the early 1930s; the first taxidermy specimen was sold to Roy Ball of the La Bonte Hotel in 1932.",
+      "folklore_connections": "Continuous with the European wolpertinger (Bavaria), the Swedish skvader, the al-mi'raj, and the lepus cornutus illustrated in 16th–18th century European bestiaries."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1932", "event": "Douglas and Ralph Herrick of Douglas, Wyoming sell their first taxidermy jackalope to Roy Ball at the La Bonte Hotel for $10", "significance": "Creation of the modern American jackalope", "source": "Herrick family oral history; Smithsonian Magazine" },
+      { "date": "1933", "event": "Richard E. Shope, M.D., describes the cottontail rabbit papillomavirus that causes horn-like tumors on rabbits", "significance": "Provides a plausible biological substrate for older horned-hare folklore", "source": "Shope, R. E. (1933), Journal of Experimental Medicine" },
+      { "date": "1965", "event": "Douglas, Wyoming officially declares itself the 'Jackalope Capital of the World'", "significance": "Civic codification of the legend", "source": "Wyoming state historical records" },
+      { "date": "2003-01", "event": "Death of Douglas Herrick, co-creator of the jackalope, age 82", "significance": "Obituary coverage in The New York Times and elsewhere reaffirmed the Herrick origin story", "source": "The New York Times, January 2003" },
+      { "date": "2005", "event": "First Wyoming state legislative attempt to designate the jackalope the official mythological creature of Wyoming", "significance": "First of several legislative efforts (also 2013, 2015)", "source": "Wyoming Legislature records" }
+    ],
+    "modern_era": "The jackalope remains a heavily commercialized icon of the American West: roadside taxidermy, tourism, novelty 'jackalope hunting licenses' issued by the Douglas chamber of commerce, references in films (Pixar's 'Boundin'', 2003), video games (Red Dead Redemption series), and continued legislative interest in Wyoming."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1932", "latest": "2026" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
+    "physical": [
+      {
+        "id": "jackalope-evidence-herrick-original",
+        "type": "taxidermy mount",
+        "name": "Herrick brothers' first jackalope",
+        "date": "1932",
+        "description": "Original taxidermy mount of a jackrabbit head with deer antlers, created by Douglas and Ralph Herrick and sold to Roy Ball at the La Bonte Hotel, Douglas, Wyoming.",
+        "location": "Douglas, Wyoming, United States",
+        "status": "verified",
+        "analysis": "Acknowledged hoax / craft object, not a biological specimen.",
+        "source": "Herrick family oral history; Smithsonian Magazine"
+      }
+    ],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [
+      {
+        "id": "jackalope-evidence-shope-papilloma",
+        "type": "viral pathology",
+        "name": "Shope papillomavirus tumors in wild lagomorphs",
+        "description": "Cottontail rabbit papillomavirus (Shope papillomavirus) causes large keratinous, horn-like tumors on the heads and bodies of infected rabbits in the wild.",
+        "status": "verified",
+        "analysis": "Provides a plausible biological substrate for pre-modern horned-hare folklore; widely cited as a likely root of 'lepus cornutus' reports.",
+        "source": "Shope, R. E. (1933), J. Exp. Med."
+      }
+    ],
+    "documentary": []
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Shope papillomavirus origin",
+        "description": "Pre-modern reports of horned hares are best explained by wild lagomorphs infected with cottontail rabbit papillomavirus, which produces large, horn-shaped keratinous tumors.",
+        "proponents": ["Richard E. Shope"],
+        "evidence_cited": ["Shope (1933) Journal of Experimental Medicine description of the virus", "Photographic documentation of wild infected rabbits with horn-like growths"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Acknowledged taxidermy hoax",
+        "description": "The modern jackalope is a known craft fabrication originating with the Herrick brothers in Douglas, Wyoming in 1932, propagated by tourism, postcards, and tall-tale tradition.",
+        "proponents": ["Douglas Herrick (self-described)", "Wyoming state historians"],
+        "evidence_cited": ["Herrick family testimony", "Continuous documented production of taxidermy jackalopes since the 1930s", "No specimen ever submitted for biological verification"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "American West tall-tale tradition",
+        "European horned-hare tradition (lepus cornutus)",
+        "Bavarian wolpertinger taxidermy tradition",
+        "Persian / Arabic al-mi'raj mythography"
+      ],
+      "stories": [
+        "Tall tales of jackalopes mimicking human voices around cowboy campfires",
+        "Folk claims of medicinal 'jackalope milk'",
+        "Douglas, Wyoming 'jackalope hunting license' (issued only on June 31, between midnight and 2 AM, to applicants of low IQ)"
+      ],
+      "beliefs": "Universally acknowledged as folklore / hoax in modern usage; embraced as regional identity rather than as a literal cryptid."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Mythical Creatures Bible — Brenda Rosen (jackalope entry)"
+      ],
+      "film_tv": [
+        "Boundin' — Pixar short film (2003)",
+        "Stagbunny — mockumentary (2006)"
+      ],
+      "games": [
+        "Red Dead Redemption (2010) — collectible animal",
+        "Red Dead Redemption 2 (2018) — collectible animal"
+      ],
+      "music": [],
+      "other": [
+        "Odessa Jackalopes ice hockey team (1997–2011)",
+        "Douglas, Wyoming municipal jackalope statue (1965)",
+        "'Jackalope hunting licenses' sold by the Douglas Chamber of Commerce",
+        "Jackalope Brewing Company (Nashville, Tennessee)"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Richard E. Shope", "affiliation": "Rockefeller Institute for Medical Research", "contribution": "Identified the cottontail rabbit papillomavirus (Shope papillomavirus) responsible for horn-like growths on wild rabbits, providing a likely substrate for horned-hare folklore", "period": "1933" },
+      { "name": "Douglas Herrick", "affiliation": "Douglas, Wyoming (independent)", "contribution": "Co-creator of the modern Wyoming jackalope as a taxidermy form (1932)", "period": "1932–2003" }
+    ],
+    "organizations": [
+      { "name": "Douglas Chamber of Commerce", "url": "https://www.jackalope.org", "focus": "Civic promotion of the jackalope as Douglas, Wyoming's mascot" }
+    ],
+    "ongoing_studies": "Ongoing veterinary and virological study of cottontail rabbit papillomavirus continues; the jackalope itself is studied as folklore and Americana, not biology."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-jackalope",
+      "type": "website",
+      "title": "Jackalope",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jackalope",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "shope-1933",
+      "type": "paper",
+      "title": "Infectious papillomatosis of rabbits",
+      "authors": ["Richard E. Shope"],
+      "publication": "Journal of Experimental Medicine",
+      "date": "1933"
+    },
+    {
+      "id": "nyt-herrick-2003",
+      "type": "news",
+      "title": "Douglas Herrick, 82, Dies; Father of Jackalope",
+      "publication": "The New York Times",
+      "date": "2003-01"
+    }
+  ]
 }
